@@ -11,13 +11,14 @@ import (
 	"encoding/pem"
 	"errors"
 	"fmt"
-	"github.com/cetcxinlian/cryptogm/sm2"
-	"github.com/cetcxinlian/cryptogm/sm3"
-	"github.com/cetcxinlian/cryptogm/sm4"
-	"github.com/cetcxinlian/cryptogm/x509"
 	"io/ioutil"
 	"strings"
 	"sync"
+
+	"github.com/whiskerman/cryptogm/sm2"
+	"github.com/whiskerman/cryptogm/sm3"
+	"github.com/whiskerman/cryptogm/sm4"
+	"github.com/whiskerman/cryptogm/x509"
 )
 
 const VersionGMSSL = 0x0101 // GM/T 0024-2014

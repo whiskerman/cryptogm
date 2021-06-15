@@ -10,8 +10,9 @@ import (
 	"encoding/asn1"
 	"errors"
 	"fmt"
-	"github.com/cetcxinlian/cryptogm/sm2"
 	"math/big"
+
+	"github.com/whiskerman/cryptogm/sm2"
 )
 
 const ecPrivKeyVersion = 1

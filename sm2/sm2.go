@@ -10,9 +10,10 @@ import (
 	"crypto/elliptic"
 	"encoding/asn1"
 	"errors"
-	"github.com/cetcxinlian/cryptogm/sm3"
 	"io"
 	"math/big"
+
+	"github.com/whiskerman/cryptogm/sm3"
 )
 
 type PublicKey struct {

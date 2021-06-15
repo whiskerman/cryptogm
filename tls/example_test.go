@@ -5,9 +5,10 @@
 package tls_test
 
 import (
-	"github.com/cetcxinlian/crypto/tls"
-	"github.com/cetcxinlian/crypto/x509"
 	"log"
+
+	"github.com/whiskerman/crypto/tls"
+	"github.com/whiskerman/crypto/x509"
 )
 
 // zeroSource is an io.Reader that returns an unlimited number of zero bytes.

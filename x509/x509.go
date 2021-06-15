@@ -24,8 +24,6 @@ import (
 	"encoding/pem"
 	"errors"
 	"fmt"
-	"github.com/cetcxinlian/cryptogm/sm2"
-	"github.com/cetcxinlian/cryptogm/sm3"
 	"hash"
 	"io"
 	"math/big"
@@ -33,6 +31,9 @@ import (
 	"reflect"
 	"strconv"
 	"time"
+
+	"github.com/whiskerman/cryptogm/sm2"
+	"github.com/whiskerman/cryptogm/sm3"
 )
 
 // pkixPublicKey reflects a PKIX public key structure. See SubjectPublicKeyInfo

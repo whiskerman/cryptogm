@@ -10,14 +10,14 @@ import (
 	"crypto/elliptic"
 	"encoding/asn1"
 	"errors"
-	"github.com/cetcxinlian/cryptogm/sm2"
-	"github.com/cetcxinlian/cryptogm/x509"
 	"io"
 	"math/big"
 
+	"github.com/whiskerman/cryptogm/sm2"
+	"github.com/whiskerman/cryptogm/x509"
+
 	"golang_org/x/crypto/curve25519"
 )
-
 
 //// hashForServerKeyExchange hashes the given slices and returns their digest
 //// using the given hash function (for >= TLS 1.2) or using a default based on

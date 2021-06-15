@@ -10,7 +10,6 @@ import (
 	"crypto/ecdsa"
 	"crypto/elliptic"
 	"crypto/rsa"
-	"github.com/cetcxinlian/crypto/x509"
 	"encoding/hex"
 	"encoding/pem"
 	"errors"
@@ -24,6 +23,8 @@ import (
 	"strings"
 	"testing"
 	"time"
+
+	"github.com/whiskerman/crypto/x509"
 )
 
 // zeroSource is an io.Reader that returns an unlimited number of zero bytes.

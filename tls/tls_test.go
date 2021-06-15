@@ -6,7 +6,6 @@ package tls
 
 import (
 	"bytes"
-	"github.com/cetcxinlian/crypto/x509"
 	"encoding/json"
 	"errors"
 	"fmt"
@@ -19,6 +18,8 @@ import (
 	"strings"
 	"testing"
 	"time"
+
+	"github.com/whiskerman/crypto/x509"
 )
 
 var rsaCertPEM = `-----BEGIN CERTIFICATE-----

@@ -9,9 +9,10 @@ import (
 	"bytes"
 	"crypto/rand"
 	"encoding/gob"
-	"github.com/cetcxinlian/cryptogm/sm3"
 	"reflect"
 	"testing"
+
+	"github.com/whiskerman/cryptogm/sm3"
 )
 
 type Assert struct {}

@@ -7,17 +7,19 @@ package tls
 import (
 	"bytes"
 	"crypto"
+
 	// add by syl
 	"crypto/ecdsa"
 	"crypto/rsa"
 	"crypto/subtle"
 	"errors"
 	"fmt"
-	"github.com/cetcxinlian/cryptogm/sm2"
-	"github.com/cetcxinlian/cryptogm/x509"
 	"io"
 	"strconv"
 	"sync/atomic"
+
+	"github.com/whiskerman/cryptogm/sm2"
+	"github.com/whiskerman/cryptogm/x509"
 )
 
 type clientHandshakeStateGM struct {
