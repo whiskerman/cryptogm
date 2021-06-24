@@ -19,7 +19,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/whiskerman/crypto/x509"
+	"github.com/whiskerman/cryptogm/x509"
 )
 
 var rsaCertPEM = `-----BEGIN CERTIFICATE-----
