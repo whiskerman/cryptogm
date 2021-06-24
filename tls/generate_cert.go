@@ -18,7 +18,7 @@ import (
 	"encoding/pem"
 	"flag"
 	"fmt"
-	"github.com/whiskerman/crypto/x509"
+	"github.com/whiskerman/cryptogm/x509"
 	"log"
 	"math/big"
 	"net"

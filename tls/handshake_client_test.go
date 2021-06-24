@@ -25,7 +25,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/whiskerman/crypto/x509"
+	"github.com/whiskerman/cryptogm/x509"
 )
 
 // Note: see comment in handshake_test.go for details of how the reference
